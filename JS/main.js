@@ -36,6 +36,15 @@ if(isNaN(kilomiter) || isNaN(age)){
 
 //Calcolo di soldi da spendere per il viaggio
 
+
+form.addEventListener('click',function(event){
+    event.preventDefault();
+    const age = document.getElementById("age");
+    const kilomiter = document.getElementById("distance");
+    const priceKm = 0.21;
+    const overAge = 65;
+});
+
 const euroDiscount = ((kilomiter * priceKm)*discount)/100;
 const euro = (kilomiter * priceKm);
 
