@@ -1,8 +1,9 @@
 //chiedere all'utente il numero di chilometri che vuole percorrere
-const kilomiter = prompt("Quanti kilometri vuoi percorrere?");
-
+//const kilomiter = prompt("Quanti kilometri vuoi percorrere?");
+const kilomiter = getElementById("distance");
 //chiedere all'utente l'età del passeggero
-const age = prompt("Quanti anni hai?");
+//const age = prompt("Quanti anni hai?");
+const age = getElementById("age");
 
 //Prezzo al kilometro
 const priceKm = 0.21;
